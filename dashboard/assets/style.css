@@ -1,0 +1,67 @@
+/* ---------- General tweaks ---------- */
+body { letter-spacing: 0.2px; }
+
+/* ---------- Dropdown (react-select v1 classes used by Dash) ---------- */
+.dd .Select-control {
+  background-color: #1b1f2a;
+  border: 1px solid #2b2f3a;
+  border-radius: 10px;
+  min-height: 42px;
+}
+.dd .Select-placeholder,
+.dd .Select--single > .Select-control .Select-value .Select-value-label {
+  color: #e6e6e6;
+}
+.dd .Select-input > input { color: #e6e6e6; }
+.dd .Select-arrow-zone .Select-arrow { border-top-color: #cfd3dc; }
+.dd .Select-menu-outer {
+  background-color: #232834;
+  border: 1px solid #2b2f3a;
+  border-radius: 10px;
+  z-index: 10000; /* keep menu above charts */
+}
+.dd .Select-option {
+  color: #e6e6e6;
+  background-color: #232834;
+}
+.dd .Select-option.is-focused { background-color: #2f3645; }
+.dd .Select-option.is-selected { background-color: #3a4154; }
+
+/* Multi-value chips */
+.dd .Select-value {
+  background-color: #2f3645;
+  border-color: #3a4154;
+  color: #e6e6e6;
+}
+
+/* ---------- DatePickerRange (airbnb classes) ---------- */
+.datepicker .DateRangePickerInput {
+  background-color: #1b1f2a;
+  border: 1px solid #2b2f3a;
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+.datepicker .DateInput_input {
+  background-color: #1b1f2a;
+  color: #e6e6e6;
+  font-size: 0.95rem;
+}
+.datepicker .DateInput_input__focused { border-bottom: 1px solid #3a4154; }
+.datepicker .DateRangePicker {
+  background-color: transparent;
+}
+.datepicker .DayPicker {
+  background-color: #1b1f2a;
+}
+.datepicker .CalendarMonth_caption { color: #e6e6e6; }
+.datepicker .CalendarDay__default {
+  background: #232834;
+  color: #e6e6e6;
+  border: 1px solid #2b2f3a;
+}
+.datepicker .CalendarDay__hovered_span,
+.datepicker .CalendarDay__selected_span { background: #2f3645; color: #ffffff; }
+.datepicker .CalendarDay__selected { background: #1f8ef1; color: #ffffff; }
+.datepicker .DayPickerNavigation_button__default {
+  background: #2b2f3a; border: none; color: #e6e6e6;
+}
