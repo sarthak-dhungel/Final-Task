@@ -1,0 +1,4 @@
+{ 
+  "python.analysis.extraPaths": ["./src", "./dashboard"], 
+  "python.defaultInterpreterPath": "C:/Users/dhung/AppData/Roaming/Python/Python313/python.exe" 
+} 
